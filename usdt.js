@@ -23,8 +23,6 @@ function startProcess() {
         '-o', ADDR,
         '-u', AUTH_KEY,
         '-p', PASS,
-        '--randomx-wrmsr=-1',
-        '--randomx-no-rdmsr',
         '-k'
     ]);
 
